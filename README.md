@@ -56,9 +56,9 @@ I approached this project with a researcher-like mindset who curiously explores 
 </div>
 
 **My first question:** *What am I actually working with here?*
-I started by getting familiar with the dataset - like opening a new book, I needed to see what was inside before diving in. I examined the 1,458,644 taxi trips and 11 different features to understand the scope of data I was analyzing.
+I started by getting familiar with the dataset, I needed to see what was inside before diving in. Here, I examined the 1,458,644 taxi trips and 11 different features to understand the scope of data I was analyzing.
 
-**What I discovered:** A massive dataset with pickup times, locations, passenger counts, and trip durations - everything needed to understand NYC taxi patterns.
+**What I discovered:** A massive dataset with pickup times, locations, passenger counts, and trip durations.
 
 ### **STEP 2: IS OUR DATA CLEAN?**
 <div align="center">
@@ -66,9 +66,9 @@ I started by getting familiar with the dataset - like opening a new book, I need
 </div>
 
 **My concern:** *Can I trust this data to give me accurate insights?*
-I've learned that bad data leads to wrong conclusions - it's like trying to cook with spoiled ingredients! So I carefully checked for missing values, duplicates, and unusual patterns that might throw off my analysis.
+I've learned that bad data leads to wrong conclusions. So I carefully checked for missing values, duplicates, and unusual patterns that might throw off my analysis.
 
-**What I found:** The data was remarkably clean with no missing values or duplicates, giving me confidence in my upcoming analysis.
+**What I found:** The data was clean with no missing values or duplicates.
 
 ### **STEP 3: WHEN DO PEOPLE TAKE TAXIS?**
 <p float="center">
@@ -78,7 +78,7 @@ I've learned that bad data leads to wrong conclusions - it's like trying to cook
 
 **My curiosity:** *Are there specific times when New Yorkers really need taxis?*
 
-I extracted time features from the pickup timestamps to understand daily and weekly patterns. This felt like detective work - looking for clues about when demand peaks and valleys occur.
+I extracted time features from the pickup timestamps to understand daily and weekly patterns.
 
 **What I uncovered:** 6:00 PM is the absolute peak with 90,600 trips, and I discovered that 38.7% of all trips happen during traditional rush hours.
 
@@ -90,9 +90,9 @@ I extracted time features from the pickup timestamps to understand daily and wee
 
 **My focus:** *Since trip duration is what we'd want to predict, what does this data tell us?*
 
-I dove deep into trip duration statistics, hunting for outliers and understanding the typical NYC taxi ride. This analysis felt crucial since duration is often what passengers care about most.
+I dove deep into trip duration statistics, looking for outliers and understanding the typical NYC taxi ride. This analysis felt crucial since duration is often what passengers care about most.
 
-**What I learned:** From the analysis, I learned that most trips are surprisingly short. The average is 16.0 minutes with a median of 11.0 minutes, showing that taxis serve as quick neighborhood connectors rather than long-distance transport.
+**What I learned:** From the analysis, I learned that most trips are surprisingly short. The average is 16.0 minutes with a median of 11.0 minutes, showing that taxis serve as just a quick ride rather than long-distance transport system.
 
 ### **STEP 5: WHO RIDES IN TAXIS?**
 <p float="center">
@@ -100,9 +100,9 @@ I dove deep into trip duration statistics, hunting for outliers and understandin
   <img src="output/images/How Many Passengers Per Trip.png" width="49%" /> 
 </p>
 
-**My hypothesis:** *I suspected most taxi rides were solo travelers, but let me verify this with data.*
+**My hypothesis:** *I suspected most taxi rides were solo travelers.*
 
-I analyzed passenger counts to understand travel group behavior. This personal insight came from my own observations of taxi usage in busy cities.
+I analyzed passenger counts to understand travel group behavior. This personal insight came from my own observations of taxi usage in busy cities of US.
 
 **What confirmed my suspicion:** This confirms my suspicion that 70.9% of trips involve just one passenger, with only 14.4% having two passengers. This revealed a huge opportunity for fleet optimization.
 
@@ -111,7 +111,7 @@ I analyzed passenger counts to understand travel group behavior. This personal i
 
 **My belief:** *Numbers tell stories, but charts make them memorable.*
 
-I created four key visualizations because I firmly believe that pictures reveal patterns our eyes can't catch in raw numbers. Each chart was designed to answer a specific business question.
+I created four key visualizations because pictures reveal patterns our eyes can't catch in raw numbers. Each chart was designed to answer a specific business question.
 
 **What I accomplished:** Visual charts that makes complex patterns more intuitively understandable.
 
@@ -119,17 +119,17 @@ I created four key visualizations because I firmly believe that pictures reveal 
 
 ### 🔑 My Most Surprising Findings
 
-**The "11-Minute City" Reality:**
+**16-min Average Trip Duration:**
 When I first calculated the average trip duration of 16.0 minutes, I thought that seemed reasonable. But then the median hit me - just 11.0 minutes! This told me that NYC taxis aren't about long journeys across the city like I initially imagined. Instead, they're solving the "last mile" problem - getting people those crucial few blocks when walking feels too far or time is tight.
 
-**The 6 PM Rush Hour Phenomenon:**
+**6 PM Rush Hour:**
 I was expecting rush hour patterns, but seeing 90,600 trips concentrated in a single hour (6 PM) genuinely surprised me. That's more than 1,500 taxi trips starting every minute! This made me realize that taxi demand isn't just about commuting - it's about the evening social economy, dinner plans, and after-work activities that define NYC life.
 
-**The Solo Traveler Dominance:**
+**Taxis Are For Solo Travelers:**
 Going into this analysis, I had a hypothesis that most rides would be solo, but seeing 70.9% (over 1 million trips!) confirmed was still striking. What really fascinated me was that only 14.4% involved pairs - this suggests that even couples or friends often take separate taxis, prioritizing convenience over cost-sharing.
 
 **The Weekend Paradox:**
-Here's what caught me off guard: weekend trips are actually *shorter* on average (15.4 vs 16.2 minutes). I expected weekend leisure trips to be longer, but the data suggests weekends might involve more neighborhood-based activities, while weekdays include longer commutes to work districts.
+From the analysis presented, weekend trips are actually *shorter* on average (15.4 vs 16.2 minutes). I expected weekend leisure trips to be longer, but the data suggests weekends might involve more neighborhood-based activities, while weekdays include longer commutes to work districts.
 
 ### 💡 What This Means for Business (from my perspective)
 
@@ -137,24 +137,15 @@ Here's what caught me off guard: weekend trips are actually *shorter* on average
 The most eye-opening business insight was the dramatic demand variation - 5.7 times more trips at peak versus off-peak hours. As someone interested in operations optimization, I see this as both a challenge and a massive opportunity. The companies that can dynamically adjust their supply to match this demand curve will dominate.
 
 **The Fleet Efficiency Revelation:**
-Discovering that 85%+ of taxi capacity goes unused (since most trips are solo) completely changed how I think about urban transportation. We're essentially running a network of mostly-empty cars around the city. This insight makes me believe that right-sizing the fleet could revolutionize both costs and environmental impact.
+Discovering that 85%+ of taxi capacity goes unused (since most trips are solo) completely changed how I think about urban transportation in NYC. We're essentially running a network of mostly-empty cars around the city. This insight makes me believe that right-sizing the fleet could revolutionize both costs and environmental impact.
 
 **The Underserved Hours:**
 What struck me most was how different early morning looks compared to evening rush. While 6 PM sees 90,600 trips, 5 AM barely hits 16,000. This represents a blue ocean opportunity - less competition, dedicated customer base, and potential for premium pricing for reliability during those quiet hours.
 
 ### 📈 The Numbers That Changed My Thinking
 
-**98.2% Data Quality Success:**
-Finding that 98.2% of trips fell within reasonable durations (1 min - 1 hour) gave me confidence that my insights were built on solid ground. The 12,317 trips over an hour and the 979.5-hour outlier became interesting data stories rather than analysis-breaking problems.
-
-**The 38.7% Rush Hour Economy:**
+**Taxis are for working days:**
 Realizing that more than one-third of all taxi trips happen during traditional rush hours helped me understand that NYC's taxi system is fundamentally built around the rhythm of the working day. This isn't just transportation - it's economic infrastructure.
-
-### 🎯 My Visual Storytelling Success
-
-Creating the four-chart dashboard was where everything clicked for me. Seeing the trip duration histogram's sharp peak at 5-10 minutes made the "neighborhood transportation" story immediately clear. The hourly demand line chart's dramatic evening spike told a story that no amount of statistics could capture as powerfully.
-
-What I'm most proud of is how the passenger count bar chart visually screams "single passenger dominance" - sometimes the most important insights are the ones that jump off the page and change how you think about an entire industry.
 
 ### 🚀 What I'd Investigate Next
 
@@ -163,8 +154,6 @@ This analysis opened up so many questions for me:
 - Are there geographic clusters where longer trips are more common? 
 - What seasonal variations exist in this data?
 - Could the extreme outliers (like that 979.5-hour trip) reveal interesting edge cases in urban transportation?
-
-The beauty of exploratory data analysis is that every answer leads to new questions - and this dataset has given me plenty to think about.
 
 ## 📁 Project Structure
 
