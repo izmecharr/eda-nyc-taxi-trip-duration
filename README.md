@@ -17,7 +17,7 @@
 
 ## 🎯 Project Overview
 
-*This is a mini-project to show exploratory data analysis (EDA) using NYC Taxi Trip Duration dataset from Kaggle. The analysis uncovers patterns in urban transportation behavior, identifies peak demand periods, and provides actionable business insights for taxi operations optimization.&
+*This is a mini-project to show exploratory data analysis (EDA) using NYC Taxi Trip Duration dataset from Kaggle. The analysis uncovers patterns in urban transportation behavior, identifies peak demand periods, and provides actionable business insights for taxi operations optimization.*
 
 **🔗 Access the Analysis:**
 - **Local Jupyter Notebook:** `notebooks/01_eda_nyc_taxi_trip_analysis.ipynb`
