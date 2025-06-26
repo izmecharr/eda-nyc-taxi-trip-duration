@@ -84,6 +84,7 @@ pip install pandas numpy matplotlib seaborn datetime
 I approached this project with a researcher-like mindset who curiously explores everything from the dataset, breaking down the analysis into 6 systematic steps. Here's how I tackled each phase:
 
 ### **STEP 1: WHAT'S IN OUR DATA?**
+![Step 1: WHAT'S IN OUR DATA?](output/images/02-Step-1.png)
 **My first question:** *What am I actually working with here?*
 
 I started by getting familiar with the dataset - like opening a new book, I needed to see what was inside before diving in. I examined the 1,458,644 taxi trips and 11 different features to understand the scope of data I was analyzing.
@@ -91,6 +92,7 @@ I started by getting familiar with the dataset - like opening a new book, I need
 **What I discovered:** A massive dataset with pickup times, locations, passenger counts, and trip durations - everything needed to understand NYC taxi patterns.
 
 ### **STEP 2: IS OUR DATA CLEAN?**
+![STEP 2: IS OUR DATA CLEAN?](output/images/03-Step-2.png)
 **My concern:** *Can I trust this data to give me accurate insights?*
 
 I've learned that bad data leads to wrong conclusions - it's like trying to cook with spoiled ingredients! So I carefully checked for missing values, duplicates, and unusual patterns that might throw off my analysis.
@@ -98,6 +100,7 @@ I've learned that bad data leads to wrong conclusions - it's like trying to cook
 **What I found:** Excellent news! The data was remarkably clean with no missing values or duplicates, giving me confidence in my upcoming analysis.
 
 ### **STEP 3: WHEN DO PEOPLE TAKE TAXIS?**
+![STEP 3: WHEN DO PEOPLE TAKE TAXIS?](output/images/04-Step-3.png)
 **My curiosity:** *Are there specific times when New Yorkers really need taxis?*
 
 I extracted time features from the pickup timestamps to understand daily and weekly patterns. This felt like detective work - looking for clues about when demand peaks and valleys occur.
@@ -105,6 +108,7 @@ I extracted time features from the pickup timestamps to understand daily and wee
 **What I uncovered:** A clear story emerged! 6:00 PM is the absolute peak with 90,600 trips, and I discovered that 38.7% of all trips happen during traditional rush hours.
 
 ### **STEP 4: HOW LONG ARE TAXI TRIPS?**
+![STEP 4: HOW LONG ARE TAXI TRIPS?](output/images/05-Step-4.png)
 **My focus:** *Since trip duration is what we'd want to predict, what does this data tell us?*
 
 I dove deep into trip duration statistics, hunting for outliers and understanding the typical NYC taxi ride. This analysis felt crucial since duration is often what passengers care about most.
@@ -112,6 +116,7 @@ I dove deep into trip duration statistics, hunting for outliers and understandin
 **What I learned:** Most trips are surprisingly short! The average is 16.0 minutes with a median of 11.0 minutes, showing that taxis serve as quick neighborhood connectors rather than long-distance transport.
 
 ### **STEP 5: WHO RIDES IN TAXIS?**
+![WHO RIDES IN TAXIS?](output/images/06-Step-5.png)
 **My hypothesis:** *I suspected most taxi rides were solo travelers, but let me verify this with data.*
 
 I analyzed passenger counts to understand travel group behavior. This personal insight came from my own observations of taxi usage in busy cities.
@@ -119,6 +124,7 @@ I analyzed passenger counts to understand travel group behavior. This personal i
 **What confirmed my suspicion:** I was right! 70.9% of trips involve just one passenger, with only 14.4% having two passengers. This revealed a huge opportunity for fleet optimization.
 
 ### **STEP 6: SIMPLE VISUALIZATIONS**
+![STEP 6: SIMPLE VISUALIZATIONS](output/images/07-Step-6.png)
 **My belief:** *Numbers tell stories, but charts make them memorable.*
 
 I created four key visualizations because I firmly believe that pictures reveal patterns our eyes can't catch in raw numbers. Each chart was designed to answer a specific business question.
