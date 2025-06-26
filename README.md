@@ -81,7 +81,7 @@ pip install pandas numpy matplotlib seaborn datetime
 
 ## 🔍 My Analysis Journey
 
-I approached this project with a beginner-friendly mindset, breaking down the analysis into 6 systematic steps. Here's how I tackled each phase:
+I approached this project with a researcher-like mindset who curiously explores everything from the dataset, breaking down the analysis into 6 systematic steps. Here's how I tackled each phase:
 
 ### **STEP 1: WHAT'S IN OUR DATA?**
 **My first question:** *What am I actually working with here?*
