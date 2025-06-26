@@ -84,7 +84,9 @@ pip install pandas numpy matplotlib seaborn datetime
 I approached this project with a researcher-like mindset who curiously explores everything from the dataset, breaking down the analysis into 6 systematic steps. Here's how I tackled each phase:
 
 ### **STEP 1: WHAT'S IN OUR DATA?**
-![Step 1: WHAT'S IN OUR DATA?](output/images/02-Step-1.png)
+<div align="center">
+  <img src="output/images/02-Step-1.png" alt="Chart" width="600">
+</div>
 
 **My first question:** *What am I actually working with here?*
 I started by getting familiar with the dataset - like opening a new book, I needed to see what was inside before diving in. I examined the 1,458,644 taxi trips and 11 different features to understand the scope of data I was analyzing.
@@ -92,7 +94,9 @@ I started by getting familiar with the dataset - like opening a new book, I need
 **What I discovered:** A massive dataset with pickup times, locations, passenger counts, and trip durations - everything needed to understand NYC taxi patterns.
 
 ### **STEP 2: IS OUR DATA CLEAN?**
-![STEP 2: IS OUR DATA CLEAN?](output/images/03-Step-2.png)
+<div align="center">
+  <img src="output/images/03-Step-2.png" alt="Chart" width="600">
+</div>
 
 **My concern:** *Can I trust this data to give me accurate insights?*
 I've learned that bad data leads to wrong conclusions - it's like trying to cook with spoiled ingredients! So I carefully checked for missing values, duplicates, and unusual patterns that might throw off my analysis.
@@ -100,7 +104,10 @@ I've learned that bad data leads to wrong conclusions - it's like trying to cook
 **What I found:** The data was remarkably clean with no missing values or duplicates, giving me confidence in my upcoming analysis.
 
 ### **STEP 3: WHEN DO PEOPLE TAKE TAXIS?**
-![STEP 3: WHEN DO PEOPLE TAKE TAXIS?](output/images/04-Step-3.png)
+<p float="center">
+  <img src="output/images/04-Step-3.png" width="49%" />
+  <img src="output/images/When Do People Take Taxis.png" width="49%" /> 
+</p>
 
 **My curiosity:** *Are there specific times when New Yorkers really need taxis?*
 
@@ -109,7 +116,10 @@ I extracted time features from the pickup timestamps to understand daily and wee
 **What I uncovered:** 6:00 PM is the absolute peak with 90,600 trips, and I discovered that 38.7% of all trips happen during traditional rush hours.
 
 ### **STEP 4: HOW LONG ARE TAXI TRIPS?**
-![STEP 4: HOW LONG ARE TAXI TRIPS?](output/images/05-Step-4.png)
+<p float="center">
+  <img src="output/images/05-Step-4.png" width="49%" />
+  <img src="output/images/How Long Are Most Trips.png" width="49%" /> 
+</p>
 
 **My focus:** *Since trip duration is what we'd want to predict, what does this data tell us?*
 
@@ -118,7 +128,10 @@ I dove deep into trip duration statistics, hunting for outliers and understandin
 **What I learned:** From the analysis, I learned that most trips are surprisingly short. The average is 16.0 minutes with a median of 11.0 minutes, showing that taxis serve as quick neighborhood connectors rather than long-distance transport.
 
 ### **STEP 5: WHO RIDES IN TAXIS?**
-![WHO RIDES IN TAXIS?](output/images/06-Step-5.png)
+<p float="center">
+  <img src="output/images/06-Step-5.png" width="49%" />
+  <img src="output/images/How Many Passengers Per Trip.png" width="49%" /> 
+</p>
 
 **My hypothesis:** *I suspected most taxi rides were solo travelers, but let me verify this with data.*
 
