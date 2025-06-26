@@ -3,17 +3,6 @@
 [![Pandas](https://img.shields.io/badge/Pandas-1.3+-green.svg)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.0+-orange.svg)](https://matplotlib.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.11+-red.svg)](https://seaborn.pydata.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Analysis Process](#analysis-process)
-- [Analysis Results](#analysis-results)
-- [Project Structure](#project-structure)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
 
 ## 🎯 Project Overview
 
@@ -23,11 +12,21 @@
 - **Local Jupyter Notebook:** `notebooks/01_eda_nyc_taxi_trip_analysis.ipynb`
 
 **Key Objectives:**
-- Understand trip duration patterns and distributions
-- Identify peak demand hours and passenger behavior
-- Analyze temporal patterns and weekend vs weekday differences
-- Create clear visualizations for data storytelling
-- Provide data-driven business recommendations
+- Understand NYC taxi usage patterns and peak demand times
+- Analyze trip durations and identify what drives longer vs shorter rides
+- Investigate passenger behavior and group travel preferences
+- Create clear visualizations that tell the data story
+- Find actionable business insights for taxi operations
+  
+## 📋 Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Analysis Process](#analysis-process)
+- [Analysis Results](#analysis-results)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## 📈 Dataset
 
