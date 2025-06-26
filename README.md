@@ -105,7 +105,7 @@ I've learned that bad data leads to wrong conclusions - it's like trying to cook
 ### **STEP 3: WHEN DO PEOPLE TAKE TAXIS?**
 <p float="center">
   <img src="output/images/04-Step-3.png" width="49%" />
-  <img src="output/images/When Do People Take Taxis.png" width="49%" /> 
+  <img src="output/images/When do People Take Taxis.png" width="49%" /> 
 </p>
 
 **My curiosity:** *Are there specific times when New Yorkers really need taxis?*
