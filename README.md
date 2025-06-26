@@ -21,7 +21,6 @@
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
-- [Installation](#installation)
 - [Analysis Process](#analysis-process)
 - [Analysis Results](#analysis-results)
 - [Project Structure](#project-structure)
@@ -46,37 +45,6 @@
 - `dropoff_longitude/latitude` - Dropoff coordinates
 - `store_and_fwd_flag` - Data transmission flag
 - `trip_duration` - Target variable (duration in seconds)
-
-## 🚀 Installation
-
-### Prerequisites
-```bash
-Python 3.8+
-Google Colab (recommended) or Jupyter Notebook
-```
-
-### Local Setup
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/eda-nyc-taxi-trip-duration.git
-cd eda-nyc-taxi-trip-duration
-```
-
-2. **Install required packages**
-```bash
-pip install pandas numpy matplotlib seaborn datetime
-```
-
-3. **Download the dataset**
-- Visit [Kaggle NYC Taxi Competition](https://www.kaggle.com/c/nyc-taxi-trip-duration/data)
-- Download `train.csv`
-- Place in the `data/` directory
-
-### Google Colab Setup
-1. Open the [Colab notebook](https://colab.research.google.com/drive/1hpgeFswENh93s6BPnjWxCtapiSKibMgI)
-2. Upload the dataset to your Google Drive
-3. Update the file path in the notebook
-4. Run all cells
 
 ## 🔍 My Analysis Journey
 
